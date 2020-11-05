@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15400" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment version="1070" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15400"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NailViewCtrl">
+            <connections>
+                <outlet property="mPopover" destination="12" id="50"/>
+                <outlet property="mTFNailInfo" destination="26" id="51"/>
+                <outlet property="view" destination="3" id="9"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <button id="3">
+            <rect key="frame" x="0.0" y="0.0" width="81" height="67"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <buttonCell key="cell" type="bevel" bezelStyle="circular" imagePosition="only" alignment="left" state="mixed" allowsMixedState="YES" imageScaling="proportionallyDown" id="4">
+                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                <font key="font" metaFont="label"/>
+                <connections>
+                    <action selector="btn_ShowPOPView:" target="-2" id="48"/>
+                </connections>
+            </buttonCell>
+            <point key="canvasLocation" x="140" y="154"/>
+        </button>
+        <viewController id="11" userLabel="Popover View Controller">
+            <connections>
+                <outlet property="view" destination="14" id="25"/>
+            </connections>
+        </viewController>
+        <popover behavior="semitransient" id="12">
+            <connections>
+                <outlet property="contentViewController" destination="11" id="13"/>
+                <outlet property="delegate" destination="-2" id="49"/>
+            </connections>
+        </popover>
+        <customView id="14">
+            <rect key="frame" x="0.0" y="0.0" width="274" height="77"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" preferredMaxLayoutWidth="273" translatesAutoresizingMaskIntoConstraints="NO" id="26">
+                    <rect key="frame" x="1" y="0.0" width="275" height="77"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="271" id="58"/>
+                        <constraint firstAttribute="height" constant="77" id="66"/>
+                    </constraints>
+                    <textFieldCell key="cell" controlSize="mini" sendsActionOnEndEditing="YES" title="Multiline Label" id="27">
+                        <font key="font" metaFont="system" size="16"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstItem="26" firstAttribute="trailing" secondItem="14" secondAttribute="trailing" id="57"/>
+                <constraint firstItem="26" firstAttribute="top" secondItem="14" secondAttribute="top" id="65"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="288"/>
+        </customView>
+    </objects>
+</document>

@@ -1,0 +1,8 @@
+ Gerber_20200211(820-01839-a_v7)        Tebo-ICT,  license #XunKeDa
+
+11-February-2020 11:11
+                Metric units
+
+Part        T/B
+Pin   Name      X         Y     Layer  Net               Nail(s)
+

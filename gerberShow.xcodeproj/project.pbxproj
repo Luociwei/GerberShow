@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7984FA6617A8C60100B47189 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7984FA6517A8C5D400B47189 /* RegexKitLite.m */; };
+		7984FA6717A8DA1200B47189 /* RegexKitLite.h in Sources */ = {isa = PBXBuildFile; fileRef = 7984FA6417A8C5D400B47189 /* RegexKitLite.h */; };
+		7984FA6917A8DA9C00B47189 /* libicucore.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7984FA6817A8DA9C00B47189 /* libicucore.A.dylib */; };
+		79AF73A617B1E02F003FB06D /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79AF73A517B1E02F003FB06D /* config.plist */; };
+		79AF73A917B22892003FB06D /* PinsPartDM.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AF73A817B22892003FB06D /* PinsPartDM.m */; };
+		79D11A6D17AA40EB00AB90BF /* Format.asc in Resources */ = {isa = PBXBuildFile; fileRef = 79D11A6C17AA40EB00AB90BF /* Format.asc */; };
+		79D11A6F17AA40F000AB90BF /* Nails.asc in Resources */ = {isa = PBXBuildFile; fileRef = 79D11A6E17AA40F000AB90BF /* Nails.asc */; };
+		79D11A7117AA42F000AB90BF /* Nails.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79D11A7017AA42F000AB90BF /* Nails.txt */; };
+		79DBB32517A895D9002C1D26 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79DBB32417A895D9002C1D26 /* Cocoa.framework */; };
+		79DBB32F17A895D9002C1D26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79DBB32D17A895D9002C1D26 /* InfoPlist.strings */; };
+		79DBB33117A895D9002C1D26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DBB33017A895D9002C1D26 /* main.m */; };
+		79DBB33517A895DA002C1D26 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 79DBB33317A895DA002C1D26 /* Credits.rtf */; };
+		79DBB33B17A895DA002C1D26 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79DBB33917A895DA002C1D26 /* MainMenu.xib */; };
+		79DBB33E17A895DA002C1D26 /* gerberShow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79DBB33C17A895DA002C1D26 /* gerberShow.xcdatamodeld */; };
+		79DBB34917A8A154002C1D26 /* GerberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DBB34817A8A154002C1D26 /* GerberView.m */; };
+		8B8C3ED617A925C30069246A /* downPng.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8C3ED517A925C30069246A /* downPng.png */; };
+		8B8C3ED817A925CC0069246A /* leftPng.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8C3ED717A925CC0069246A /* leftPng.png */; };
+		8B8C3EDA17A925D50069246A /* rightPng.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8C3ED917A925D50069246A /* rightPng.png */; };
+		8B8C3EDC17A925DC0069246A /* upPng.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8C3EDB17A925DC0069246A /* upPng.png */; };
+		8B8C3EDE17A926AF0069246A /* sxPng.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8C3EDD17A926AF0069246A /* sxPng.png */; };
+		8B8C3EE017A926BB0069246A /* fdPng.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8C3EDF17A926BB0069246A /* fdPng.png */; };
+		8BD8D98617A9F9FF007FE7CD /* NailViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD8D98417A9F9FF007FE7CD /* NailViewCtrl.m */; };
+		8BD8D98717A9F9FF007FE7CD /* NailViewCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BD8D98517A9F9FF007FE7CD /* NailViewCtrl.xib */; };
+		BA2293072410B5F30011D010 /* GerberShowVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA2293042410B5F20011D010 /* GerberShowVC.xib */; };
+		BA2293082410B5F30011D010 /* GerberShowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2293062410B5F30011D010 /* GerberShowVC.m */; };
+		BA2294032410FAC50011D010 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2294022410FAC50011D010 /* AppDelegate.m */; };
+		BA22948C241100480011D010 /* SearchPinVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA22947B241100480011D010 /* SearchPinVC.xib */; };
+		BA22948D241100480011D010 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA22947F241100480011D010 /* MainVC.m */; };
+		BA22948E241100480011D010 /* HeardPinBox.m in Sources */ = {isa = PBXBuildFile; fileRef = BA229480241100480011D010 /* HeardPinBox.m */; };
+		BA229491241100480011D010 /* SearchPinVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA229484241100480011D010 /* SearchPinVC.m */; };
+		BA229492241100480011D010 /* MyTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA229486241100480011D010 /* MyTextLabel.m */; };
+		BA229493241100480011D010 /* MyEexception.m in Sources */ = {isa = PBXBuildFile; fileRef = BA229487241100480011D010 /* MyEexception.m */; };
+		BA229495241100480011D010 /* PinBox.m in Sources */ = {isa = PBXBuildFile; fileRef = BA229489241100480011D010 /* PinBox.m */; };
+		BA48E85924DEA2D400316759 /* J4XX in Resources */ = {isa = PBXBuildFile; fileRef = BA48E85724DEA2D400316759 /* J4XX */; };
+		BA48E85A24DEA2D400316759 /* J5XX in Resources */ = {isa = PBXBuildFile; fileRef = BA48E85824DEA2D400316759 /* J5XX */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7984FA6417A8C5D400B47189 /* RegexKitLite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		7984FA6517A8C5D400B47189 /* RegexKitLite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		7984FA6817A8DA9C00B47189 /* libicucore.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.A.dylib; path = usr/lib/libicucore.A.dylib; sourceTree = SDKROOT; };
+		79AF73A517B1E02F003FB06D /* config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
+		79AF73A717B22892003FB06D /* PinsPartDM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinsPartDM.h; sourceTree = "<group>"; };
+		79AF73A817B22892003FB06D /* PinsPartDM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinsPartDM.m; sourceTree = "<group>"; };
+		79D11A6C17AA40EB00AB90BF /* Format.asc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Format.asc; sourceTree = "<group>"; };
+		79D11A6E17AA40F000AB90BF /* Nails.asc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nails.asc; sourceTree = "<group>"; };
+		79D11A7017AA42F000AB90BF /* Nails.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nails.txt; sourceTree = "<group>"; };
+		79DBB32117A895D9002C1D26 /* gerberShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gerberShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79DBB32417A895D9002C1D26 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		79DBB32717A895D9002C1D26 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		79DBB32817A895D9002C1D26 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		79DBB32917A895D9002C1D26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79DBB32C17A895D9002C1D26 /* gerberShow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gerberShow-Info.plist"; sourceTree = "<group>"; };
+		79DBB32E17A895D9002C1D26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79DBB33017A895D9002C1D26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79DBB33217A895D9002C1D26 /* gerberShow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gerberShow-Prefix.pch"; sourceTree = "<group>"; };
+		79DBB33417A895DA002C1D26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		79DBB33A17A895DA002C1D26 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		79DBB33D17A895DA002C1D26 /* gerberShow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gerberShow.xcdatamodel; sourceTree = "<group>"; };
+		79DBB34717A8A154002C1D26 /* GerberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GerberView.h; sourceTree = "<group>"; };
+		79DBB34817A8A154002C1D26 /* GerberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GerberView.m; sourceTree = "<group>"; };
+		8B8C3ED517A925C30069246A /* downPng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downPng.png; sourceTree = "<group>"; };
+		8B8C3ED717A925CC0069246A /* leftPng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftPng.png; sourceTree = "<group>"; };
+		8B8C3ED917A925D50069246A /* rightPng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightPng.png; sourceTree = "<group>"; };
+		8B8C3EDB17A925DC0069246A /* upPng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upPng.png; sourceTree = "<group>"; };
+		8B8C3EDD17A926AF0069246A /* sxPng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sxPng.png; sourceTree = "<group>"; };
+		8B8C3EDF17A926BB0069246A /* fdPng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fdPng.png; sourceTree = "<group>"; };
+		8BD8D98317A9F9FF007FE7CD /* NailViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NailViewCtrl.h; sourceTree = "<group>"; };
+		8BD8D98417A9F9FF007FE7CD /* NailViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NailViewCtrl.m; sourceTree = "<group>"; };
+		8BD8D98517A9F9FF007FE7CD /* NailViewCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NailViewCtrl.xib; sourceTree = "<group>"; };
+		BA2293042410B5F20011D010 /* GerberShowVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GerberShowVC.xib; sourceTree = "<group>"; };
+		BA2293052410B5F30011D010 /* GerberShowVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GerberShowVC.h; sourceTree = "<group>"; };
+		BA2293062410B5F30011D010 /* GerberShowVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GerberShowVC.m; sourceTree = "<group>"; };
+		BA2294012410FAC50011D010 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA2294022410FAC50011D010 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA22947B241100480011D010 /* SearchPinVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchPinVC.xib; sourceTree = "<group>"; };
+		BA22947C241100480011D010 /* SearchPinVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchPinVC.h; sourceTree = "<group>"; };
+		BA22947D241100480011D010 /* MyEexception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyEexception.h; sourceTree = "<group>"; };
+		BA22947E241100480011D010 /* MyTextLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTextLabel.h; sourceTree = "<group>"; };
+		BA22947F241100480011D010 /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		BA229480241100480011D010 /* HeardPinBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeardPinBox.m; sourceTree = "<group>"; };
+		BA229481241100480011D010 /* PinBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinBox.h; sourceTree = "<group>"; };
+		BA229484241100480011D010 /* SearchPinVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchPinVC.m; sourceTree = "<group>"; };
+		BA229485241100480011D010 /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		BA229486241100480011D010 /* MyTextLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTextLabel.m; sourceTree = "<group>"; };
+		BA229487241100480011D010 /* MyEexception.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyEexception.m; sourceTree = "<group>"; };
+		BA229489241100480011D010 /* PinBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinBox.m; sourceTree = "<group>"; };
+		BA22948A241100480011D010 /* HeardPinBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeardPinBox.h; sourceTree = "<group>"; };
+		BA48E85724DEA2D400316759 /* J4XX */ = {isa = PBXFileReference; lastKnownFileType = folder; path = J4XX; sourceTree = "<group>"; };
+		BA48E85824DEA2D400316759 /* J5XX */ = {isa = PBXFileReference; lastKnownFileType = folder; path = J5XX; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79DBB31E17A895D9002C1D26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7984FA6917A8DA9C00B47189 /* libicucore.A.dylib in Frameworks */,
+				79DBB32517A895D9002C1D26 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7984FA6317A8C5B100B47189 /* RegEx */ = {
+			isa = PBXGroup;
+			children = (
+				7984FA6817A8DA9C00B47189 /* libicucore.A.dylib */,
+				7984FA6417A8C5D400B47189 /* RegexKitLite.h */,
+				7984FA6517A8C5D400B47189 /* RegexKitLite.m */,
+			);
+			name = RegEx;
+			sourceTree = "<group>";
+		};
+		79DBB31817A895D9002C1D26 = {
+			isa = PBXGroup;
+			children = (
+				79DBB32A17A895D9002C1D26 /* gerberShow */,
+				79DBB32317A895D9002C1D26 /* Frameworks */,
+				79DBB32217A895D9002C1D26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79DBB32217A895D9002C1D26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79DBB32117A895D9002C1D26 /* gerberShow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79DBB32317A895D9002C1D26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79DBB32417A895D9002C1D26 /* Cocoa.framework */,
+				79DBB32617A895D9002C1D26 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79DBB32617A895D9002C1D26 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79DBB32717A895D9002C1D26 /* AppKit.framework */,
+				79DBB32817A895D9002C1D26 /* CoreData.framework */,
+				79DBB32917A895D9002C1D26 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		79DBB32A17A895D9002C1D26 /* gerberShow */ = {
+			isa = PBXGroup;
+			children = (
+				BA229479241100480011D010 /* explorer */,
+				79D11A6C17AA40EB00AB90BF /* Format.asc */,
+				79D11A7017AA42F000AB90BF /* Nails.txt */,
+				79D11A6E17AA40F000AB90BF /* Nails.asc */,
+				BA48E85724DEA2D400316759 /* J4XX */,
+				BA48E85824DEA2D400316759 /* J5XX */,
+				8B8C3ED517A925C30069246A /* downPng.png */,
+				8B8C3ED717A925CC0069246A /* leftPng.png */,
+				8B8C3ED917A925D50069246A /* rightPng.png */,
+				8B8C3EDB17A925DC0069246A /* upPng.png */,
+				8B8C3EDD17A926AF0069246A /* sxPng.png */,
+				8B8C3EDF17A926BB0069246A /* fdPng.png */,
+				7984FA6317A8C5B100B47189 /* RegEx */,
+				79DBB33917A895DA002C1D26 /* MainMenu.xib */,
+				BA2294012410FAC50011D010 /* AppDelegate.h */,
+				BA2294022410FAC50011D010 /* AppDelegate.m */,
+				BA2293052410B5F30011D010 /* GerberShowVC.h */,
+				BA2293062410B5F30011D010 /* GerberShowVC.m */,
+				BA2293042410B5F20011D010 /* GerberShowVC.xib */,
+				79DBB34717A8A154002C1D26 /* GerberView.h */,
+				79DBB34817A8A154002C1D26 /* GerberView.m */,
+				79AF73A717B22892003FB06D /* PinsPartDM.h */,
+				79AF73A817B22892003FB06D /* PinsPartDM.m */,
+				8BD8D98317A9F9FF007FE7CD /* NailViewCtrl.h */,
+				8BD8D98417A9F9FF007FE7CD /* NailViewCtrl.m */,
+				8BD8D98517A9F9FF007FE7CD /* NailViewCtrl.xib */,
+				79DBB33C17A895DA002C1D26 /* gerberShow.xcdatamodeld */,
+				79AF73A517B1E02F003FB06D /* config.plist */,
+				79DBB32B17A895D9002C1D26 /* Supporting Files */,
+			);
+			path = gerberShow;
+			sourceTree = "<group>";
+		};
+		79DBB32B17A895D9002C1D26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79DBB32C17A895D9002C1D26 /* gerberShow-Info.plist */,
+				79DBB32D17A895D9002C1D26 /* InfoPlist.strings */,
+				79DBB33017A895D9002C1D26 /* main.m */,
+				79DBB33217A895D9002C1D26 /* gerberShow-Prefix.pch */,
+				79DBB33317A895DA002C1D26 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA229479241100480011D010 /* explorer */ = {
+			isa = PBXGroup;
+			children = (
+				BA229485241100480011D010 /* MainVC.h */,
+				BA22947F241100480011D010 /* MainVC.m */,
+				BA22947C241100480011D010 /* SearchPinVC.h */,
+				BA229484241100480011D010 /* SearchPinVC.m */,
+				BA22947B241100480011D010 /* SearchPinVC.xib */,
+				BA22947D241100480011D010 /* MyEexception.h */,
+				BA229487241100480011D010 /* MyEexception.m */,
+				BA22947E241100480011D010 /* MyTextLabel.h */,
+				BA229486241100480011D010 /* MyTextLabel.m */,
+				BA22948A241100480011D010 /* HeardPinBox.h */,
+				BA229480241100480011D010 /* HeardPinBox.m */,
+				BA229481241100480011D010 /* PinBox.h */,
+				BA229489241100480011D010 /* PinBox.m */,
+			);
+			path = explorer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79DBB32017A895D9002C1D26 /* gerberShow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79DBB34117A895DA002C1D26 /* Build configuration list for PBXNativeTarget "gerberShow" */;
+			buildPhases = (
+				79DBB31D17A895D9002C1D26 /* Sources */,
+				79DBB31E17A895D9002C1D26 /* Frameworks */,
+				79DBB31F17A895D9002C1D26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gerberShow;
+			productName = gerberShow;
+			productReference = 79DBB32117A895D9002C1D26 /* gerberShow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79DBB31917A895D9002C1D26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Louis;
+			};
+			buildConfigurationList = 79DBB31C17A895D9002C1D26 /* Build configuration list for PBXProject "gerberShow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 79DBB31817A895D9002C1D26;
+			productRefGroup = 79DBB32217A895D9002C1D26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79DBB32017A895D9002C1D26 /* gerberShow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79DBB31F17A895D9002C1D26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA48E85924DEA2D400316759 /* J4XX in Resources */,
+				79DBB32F17A895D9002C1D26 /* InfoPlist.strings in Resources */,
+				79DBB33517A895DA002C1D26 /* Credits.rtf in Resources */,
+				BA48E85A24DEA2D400316759 /* J5XX in Resources */,
+				79DBB33B17A895DA002C1D26 /* MainMenu.xib in Resources */,
+				8B8C3ED617A925C30069246A /* downPng.png in Resources */,
+				8B8C3ED817A925CC0069246A /* leftPng.png in Resources */,
+				8B8C3EDA17A925D50069246A /* rightPng.png in Resources */,
+				8B8C3EDC17A925DC0069246A /* upPng.png in Resources */,
+				8B8C3EDE17A926AF0069246A /* sxPng.png in Resources */,
+				8B8C3EE017A926BB0069246A /* fdPng.png in Resources */,
+				8BD8D98717A9F9FF007FE7CD /* NailViewCtrl.xib in Resources */,
+				79D11A6D17AA40EB00AB90BF /* Format.asc in Resources */,
+				79D11A6F17AA40F000AB90BF /* Nails.asc in Resources */,
+				BA22948C241100480011D010 /* SearchPinVC.xib in Resources */,
+				79D11A7117AA42F000AB90BF /* Nails.txt in Resources */,
+				BA2293072410B5F30011D010 /* GerberShowVC.xib in Resources */,
+				79AF73A617B1E02F003FB06D /* config.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79DBB31D17A895D9002C1D26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2293082410B5F30011D010 /* GerberShowVC.m in Sources */,
+				BA229492241100480011D010 /* MyTextLabel.m in Sources */,
+				BA229495241100480011D010 /* PinBox.m in Sources */,
+				7984FA6717A8DA1200B47189 /* RegexKitLite.h in Sources */,
+				BA229491241100480011D010 /* SearchPinVC.m in Sources */,
+				BA2294032410FAC50011D010 /* AppDelegate.m in Sources */,
+				BA22948D241100480011D010 /* MainVC.m in Sources */,
+				7984FA6617A8C60100B47189 /* RegexKitLite.m in Sources */,
+				BA22948E241100480011D010 /* HeardPinBox.m in Sources */,
+				79DBB33117A895D9002C1D26 /* main.m in Sources */,
+				BA229493241100480011D010 /* MyEexception.m in Sources */,
+				79DBB33E17A895DA002C1D26 /* gerberShow.xcdatamodeld in Sources */,
+				79DBB34917A8A154002C1D26 /* GerberView.m in Sources */,
+				8BD8D98617A9F9FF007FE7CD /* NailViewCtrl.m in Sources */,
+				79AF73A917B22892003FB06D /* PinsPartDM.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79DBB32D17A895D9002C1D26 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79DBB32E17A895D9002C1D26 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		79DBB33317A895DA002C1D26 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79DBB33417A895DA002C1D26 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		79DBB33917A895DA002C1D26 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79DBB33A17A895DA002C1D26 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79DBB33F17A895DA002C1D26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		79DBB34017A895DA002C1D26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		79DBB34217A895DA002C1D26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gerberShow/gerberShow-Prefix.pch";
+				INFOPLIST_FILE = "gerberShow/gerberShow-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		79DBB34317A895DA002C1D26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gerberShow/gerberShow-Prefix.pch";
+				INFOPLIST_FILE = "gerberShow/gerberShow-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79DBB31C17A895D9002C1D26 /* Build configuration list for PBXProject "gerberShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79DBB33F17A895DA002C1D26 /* Debug */,
+				79DBB34017A895DA002C1D26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79DBB34117A895DA002C1D26 /* Build configuration list for PBXNativeTarget "gerberShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79DBB34217A895DA002C1D26 /* Debug */,
+				79DBB34317A895DA002C1D26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		79DBB33C17A895DA002C1D26 /* gerberShow.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				79DBB33D17A895DA002C1D26 /* gerberShow.xcdatamodel */,
+			);
+			currentVersion = 79DBB33D17A895DA002C1D26 /* gerberShow.xcdatamodel */;
+			path = gerberShow.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 79DBB31917A895D9002C1D26 /* Project object */;
+}
